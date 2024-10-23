@@ -82,6 +82,7 @@ LIMIT 5;
 ```
 
 ## Q.2. How many apps are in each category, ordered from most to least?
+![chart03](app_category.png)
 ```sql
 SELECT Category, COUNT(*) AS App_Count
 FROM google_play_store
@@ -90,6 +91,8 @@ ORDER BY App_Count DESC;
 ```
 
 ## Q.3. What is the rank of each app within its category based on rating?
+![chart](app_ratings.png)
+
 ```sql
 SELECT App_Name, Category, Rating,
        RANK() OVER (PARTITION BY Category ORDER BY Rating DESC) AS Rank
@@ -117,6 +120,8 @@ WHERE
 ```
 
 ## Q.6.Count the Number of Apps by Type (Free vs Paid)
+![chart02](Comparison of Free and Paid Apps.png)
+
 ```sql
 SELECT
   Type,
