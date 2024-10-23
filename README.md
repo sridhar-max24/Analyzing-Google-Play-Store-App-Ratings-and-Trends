@@ -1,5 +1,6 @@
 # Analyzing-Google-Play-Store-App-Ratings-and-Trends
 Analyze Google Play Store data to understand factors influencing app popularity and user satisfaction.
+![chart0](https://www.pngitem.com/pimgs/m/114-1144078_google-play-store-logo-png-play-store-clipart.png)
 
 # Project Description:
 This project aims to delve into the Google Play Store dataset, exploring key metrics, identifying patterns, and uncovering valuable insights related to app ratings, categories, reviews, and other relevant factors. By conducting in-depth analysis, we seek to understand the factors influencing app popularity and user satisfaction, providing valuable insights for developers and marketers.
